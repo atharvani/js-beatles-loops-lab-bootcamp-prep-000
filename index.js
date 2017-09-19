@@ -26,14 +26,14 @@ function iLoveTheBeatles(number)
   do{
       array1 = [...array1, 'I love the Beatles!'];
       i++;
-  }while(i<number);
+  }while(i<=number);
 }
 else if (number === 17)
 {
   var array2 = new Array;
 
       array2.push("I love the Beatles!");
-      
+
   }
   return array1, array2;
 }
