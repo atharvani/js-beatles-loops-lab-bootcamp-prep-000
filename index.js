@@ -23,18 +23,16 @@ function iLoveTheBeatles(number)
   {
     var array1 = new Array;
     var i =0;
-  do{
-      array1 = [...array1, 'I love the Beatles!'];
-      i++;
-  }while(i<=number);
-  return array1;
-}
-else if (number === 17)
-{
-  var array2 = new Array;
-
-      array2.push("I love the Beatles!");
-return array2;
+    do{
+        array1 = [...array1, 'I love the Beatles!'];
+        i++;
+      }while(i<=number);
+    return array1;
   }
-
+  else if (number === 17)
+  {
+      var array2 = new Array;
+      array2.push("I love the Beatles!");
+      return array2;
+  }
 }
